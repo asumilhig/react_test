@@ -1,0 +1,41 @@
+https://medium.com/@sibu.it13/an-example-of-server-push-with-http-2-in-node-js-22757256f0b3
+https://www.perimeterx.com/tech-blog/2019/http2/
+
+HTTP/2
+published in 2015
+influenced by Google's SPDY
+backward-compatible
+
+Benefits
+High performance
+	http/1 only allows one concurrent request per tcp connection
+	http/2 is  capable of bi-directional connect and data compression
+Simplicity
+	http/1 uses textual-format commands
+	http/2 uses binary commands - network easily generate and parse data chunks in binary
+Robustness
+	http/2 is less error prone
+	effective network resource utilization
+	reduced network latency
+SEO
+	search engine ranking boost for fast loading websites
+Security
+	eliminated security threats and risks from http/1
+	its binary format and compression approach allows protecting sensitive data, faster encryption and lighter network footprint
+
+Browser Support
+Chrome 40+ (released on 2015)
+Firefox 36+ (released on 2014)
+Internet Explorer 11+ and all Edge versions (requires Windows 8+, released on 2014)
+Safari 9+ (released on 2015)
+Opera 21+ (released on 2014)
+
+Main features
+Multiplexed Streams
+	multiple request and response
+Connection Coalescing
+	request for assets accross different hostnames can be made over a single connection
+Server Push
+Binary Protocol
+Header Compression
+Stream prioritization
